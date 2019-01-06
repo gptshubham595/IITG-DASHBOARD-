@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/k"
+    tools:context="iitg.shubham.myapplication.Start">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/iit" />
+
+    <Button
+        android:id="@+id/newuser"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="115dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape2"
+        android:text="  New User?"
+        android:textColor="#fdfdfd"
+        android:textSize="35sp"
+        android:textStyle="normal|italic|bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/already"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@+id/newuser"
+        android:layout_marginTop="-92dp"
+        android:background="@drawable/shape2"
+        android:text=" Already a User"
+        android:textColor="#fffefe"
+        android:textSize="30sp"
+        android:textStyle="normal|italic|bold"
+        android:typeface="serif" />
+</RelativeLayout>

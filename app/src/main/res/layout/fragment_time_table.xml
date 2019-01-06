@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="iitg.shubham.myapplication.TimeTable">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_marginLeft="105dp"
+    android:background="@drawable/iitg"
+    />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:layout_height="match_parent"
+            android:text=" Indian Institute of Technology Guwahati (IIT Guwahati, IITG) is a public institution established by the Government of India, located in Guwahati, in the state of Assam in India. It is the sixth Indian Institute of Technology established in India.IIT Guwahati is officially recognised as an Institute of National Importance by the government of India.The campus of IIT Guwahati is on the northern banks of Brahmaputra and abuts the North Guwahati town of Amingaon. " />
+
+
+
+</FrameLayout>
