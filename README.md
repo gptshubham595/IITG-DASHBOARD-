@@ -1,4 +1,4 @@
-# WhatsAppViewPager
+# ViewPager
 
 Sample App for creating Swipeable tabs like WhatsApp in Android.
 
